@@ -122,25 +122,16 @@ body {
 
 @media only screen and (max-width: 600px) {
   /* Make font size smaller on smaller screens */
+
+  /* Add this to center the content horizontally */
   body {
+    margin: 0;
+    overflow-x: hidden;
     font-size: 16px;
   }
-
-  /* Stack project cards vertically on smaller screens */
-  .projects-table {
-    flex-direction: column;
-  }
-  .projects-card-1,
-  .projects-card-2,
-  .projects-card-3,
-  .projects-card-4,
-  .projects-card-5,
-  :nth-child(n-3) {
-    margin: 0.5em 0;
-  }
-
-  .symbol {
-    padding: 20em;
+  .App {
+    margin: auto;
+    width: 100%; /* Set the width to 100% to fill the screen horizontally */
   }
 }
 
