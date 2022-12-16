@@ -27,7 +27,7 @@ export function init() {
   const light = new THREE.AmbientLight(0xffffff, 11);
   scene.add(light);
 
-  loader.load("../../src/public/models/flashy_computer_setup.glb", (gltf) => {
+  loader.load("../../public/models/flashy_computer_setup.glb", (gltf) => {
     /*mixer = new THREE.AnimationMixer(gltf.scene);
 
     // Anims

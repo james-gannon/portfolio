@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <div className="hero">
-        <h1 className="title">I'm James</h1>
+        <h1 className="title">I'm Tchoweyostyr</h1>
         <p className="text">
           I build software that positively impacts how we work, live and play.
         </p>
